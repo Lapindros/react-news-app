@@ -1,7 +1,6 @@
 {
-  "name": "social-react-app",
+  "name": "react-news-app",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
@@ -10,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lapindros/social-react-app.git"
+    "url": "git+https://github.com/Lapindros/react-news-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lapindros/social-react-app/issues"
+    "url": "https://github.com/Lapindros/react-news-app/issues"
   },
-  "homepage": "https://github.com/Lapindros/social-react-app#readme",
+  "homepage": "https://github.com/Lapindros/react-news-app#readme",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-proposal-class-properties": "^7.7.0",
@@ -39,6 +38,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-loader-spinner": "^3.1.4",
     "react-router-dom": "^5.0.1"
   }
 }

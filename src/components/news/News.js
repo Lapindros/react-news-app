@@ -6,7 +6,6 @@ import './News.less';
 class News extends React.Component {
 
     renderNews = () => {
-
         const {data} = this.props;
         let news = null;
 
@@ -31,7 +30,8 @@ class News extends React.Component {
             <div className="news">
                 {this.renderNews()}
                 {
-                    data.length ? <strong className='news__count'>Всего новостей: {data.length}</strong> : null
+                    data.length ?
+                        <strong className='news__count'>Всего новостей: {data.length}</strong> : null
                 }
             </div>
         );
